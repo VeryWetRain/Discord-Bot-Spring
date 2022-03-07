@@ -26,6 +26,7 @@ public class BotConfiguration {
                 .setAllNonPrivilegedIntentsExcept(Intent.GUILD_WEBHOOKS, Intent.DIRECT_MESSAGE_REACTIONS, Intent.DIRECT_MESSAGE_TYPING, Intent.DIRECT_MESSAGES)
                 .login()
                 .join();
+        api.setMessageCacheSize(10, 60*60);
 
         System.out.println("~~~~~~~~~~ Initializing Command Listeners ~~~~~~~~~~");
         for(MessageCreateListener listener : eventListeners) {
