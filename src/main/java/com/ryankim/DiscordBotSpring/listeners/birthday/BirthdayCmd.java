@@ -1,7 +1,7 @@
 package com.ryankim.DiscordBotSpring.listeners.birthday;
 
 import com.ryankim.DiscordBotSpring.listeners.base.ServerCommand;
-import com.ryankim.DiscordBotSpring.listeners.birthday.crud.BirthdayRepository;
+import com.ryankim.DiscordBotSpring.listeners.birthday.api.BirthdayRepository;
 import com.ryankim.DiscordBotSpring.listeners.birthday.model.BirthdayEntry;
 import org.javacord.api.entity.channel.ServerTextChannel;
 import org.javacord.api.entity.message.embed.EmbedBuilder;

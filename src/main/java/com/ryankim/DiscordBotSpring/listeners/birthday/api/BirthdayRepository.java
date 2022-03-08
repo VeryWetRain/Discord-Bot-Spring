@@ -1,4 +1,4 @@
-package com.ryankim.DiscordBotSpring.listeners.birthday.crud;
+package com.ryankim.DiscordBotSpring.listeners.birthday.api;
 
 import com.ryankim.DiscordBotSpring.listeners.birthday.model.BirthdayEntry;
 import org.springframework.data.mongodb.repository.MongoRepository;
